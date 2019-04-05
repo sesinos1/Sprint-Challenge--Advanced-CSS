@@ -19,13 +19,41 @@
     flex-wrap: wrap;
     width: 100%;
 
-    img {
+    img.blast {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      @media(max-width: 500px) {
+        width: 100%;
+        margin: 20px 2.5%;
+        border-radius: 20px;
+        height: 100%;
+      }
+    }
+
+    img.sky {
+      width: 28%;
+      margin: 20px 2.5%;
+      border-radius: 20px;
+      height: 100%;
+      @media(max-width: 500px) {
+        display: none;
+      }
+    }
+
+    img.launch {
+      width: 28%;
+      margin: 20px 2.5%;
+      border-radius: 20px;
+      height: 100%;
+      @media(max-width: 500px) {
+        display: none;
+      }
     }
   }
+
+    
 
   .visit-planets {
     padding: 15px;
